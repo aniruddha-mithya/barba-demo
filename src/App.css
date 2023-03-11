@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.header {
+	padding: 24px 32px;
+	box-shadow: 0 8px 8px 4px rgba(0, 0, 0, 0.12);
+	display: flex;
+}
+
+.container {
+	position: relative;
+	padding: 16px 8px;
+}
+
+
+.link {
+	padding-inline: 8px;
+}

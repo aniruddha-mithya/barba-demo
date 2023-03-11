@@ -1,12 +1,11 @@
 import React, { FC } from "react";
-import { Link } from "react-router-dom";
 
-interface HomeProps {}
+interface ItemProps {}
 
-const Home: FC<HomeProps> = (props) => {
+const Item: FC<ItemProps> = (props) => {
     return (
         <div>
-            <h2 className="text-2xl">Home</h2>
+            <h2 className="text-2xl">Item</h2>
             <ul>
                 <li>Naan solradhayum seiven, solladhadhayum seiven</li>
                 <li>Katham katham, Mudindhadhu mudinju pochu</li>
@@ -26,4 +25,4 @@ const Home: FC<HomeProps> = (props) => {
     );
 };
 
-export default Home;
+export default Item;
