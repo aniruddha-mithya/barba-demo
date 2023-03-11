@@ -2,10 +2,10 @@ import React, { FC } from "react";
 
 interface ItemProps {}
 
-const Item: FC<ItemProps> = (props) => {
+const Contact: FC<ItemProps> = (props) => {
     return (
         <div>
-            <h2 className="text-2xl">Item</h2>
+            <h2 className="text-2xl">Contact</h2>
             <ul>
                 <li>Naan solradhayum seiven, solladhadhayum seiven</li>
                 <li>Katham katham, Mudindhadhu mudinju pochu</li>
@@ -25,4 +25,4 @@ const Item: FC<ItemProps> = (props) => {
     );
 };
 
-export default Item;
+export default Contact;

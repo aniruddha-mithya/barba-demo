@@ -3,7 +3,7 @@ import React, { createRef } from "react";
 import { createBrowserRouter } from "react-router-dom";
 import About from "Screens/About";
 import Home from "Screens/Home";
-import Item from "Screens/Item";
+import Contact from "Screens/Contact";
 
 export const routes = [
     {
@@ -19,9 +19,9 @@ export const routes = [
         nodeRef: createRef<HTMLDivElement>(),
     },
     {
-        path: "/item",
+        path: "/contact",
         name: "Contact",
-        element: <Item />,
+        element: <Contact />,
         nodeRef: createRef<HTMLDivElement>(),
     },
 ];
