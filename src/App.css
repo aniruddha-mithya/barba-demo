@@ -17,3 +17,7 @@
 .link {
 	padding-inline: 8px;
 }
+
+.link.active {
+	color: #4488aa;
+}
