@@ -1,4 +1,4 @@
-# barba-demo
+# page-transitions-demo
 
 This boilerplate sets up a basic project using Vite TS, Tailwind, Easy-peasy and Sass.
 
